@@ -28,8 +28,7 @@ public class Opg7_1 {
         else if (scores[i] >= bestScore -40)
         {grade[i] = "D";}
         else
-        {grade[i] = "F";}
-        }
+        {grade[i] = "F";}}
 
         for (int p = 0; p < students;p++)
         {
