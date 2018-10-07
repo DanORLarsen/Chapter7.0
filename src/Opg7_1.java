@@ -5,16 +5,17 @@ import java.util.Arrays;
 
 public class Opg7_1 {
     public static void main(String[] args) {
+        //Prompt user to enter number of students
         System.out.print("Enter number of students: ");
         Scanner sc = new Scanner(System.in);
         int students = sc.nextInt();
         System.out.println();
-        int[] scores = new int[students];
+        int[] scores = new int[students]; //Use input to limit array
         for (int l = 0; l < scores.length; l++)
         { System.out.print("Enter " + students + " scores: ");
-        scores[l]=sc.nextInt();}
+        scores[l]=sc.nextInt();} //Use for loop to enter scores of the index student
 
-        Arrays.sort(scores);
+        Arrays.sort(scores); //Sort to find highest (Highest index is highest grade "Problem is that student and scores would be swapped")
         String[] grade = new String[scores.length];
         int bestScore = scores[(scores.length-1)];
         System.out.println(bestScore);
