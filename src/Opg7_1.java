@@ -5,6 +5,7 @@
 //  ||  ////        \\\\|  |\\    ||
 //_____////__/_____\__\\|  |\\\___||
 ////////////////////////////////////
+//(Assign grades) Write a program that reads student scores, gets the best score, and then assigns grades
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.Arrays;

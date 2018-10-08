@@ -5,6 +5,8 @@
 //  ||  ////        \\\\|  |\\    ||
 //_____////__/_____\__\\|  |\\\___||
 ////////////////////////////////////
+//(Count occurrence of numbers) Write a program that reads the integers between 1 and 100 and counts the occurrences of each.
+// Assume the input ends with 0.
 import java.util.Scanner;
 
 public class Opg7_3 {
