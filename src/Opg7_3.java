@@ -23,6 +23,7 @@ public class Opg7_3 {
     }
 
     //Method to count numbers and end at 0.
+    //With adding increased number to a 0 array, if 41 is metioned 3 times. index 40 would be 3.
     public static void count(int[] numbers){
 
         Scanner input = new Scanner(System.in);
