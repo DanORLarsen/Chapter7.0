@@ -9,6 +9,8 @@ public class Opg7_3 {
         count(numbers);
 
         //I use the 100 max of my numbers to count and write the numbers down.
+        //It means at index 40 will there be how many 41 is repeated. and so on. Its possible cause those with nothing is just 0.
+        //and because i made the array to 100...
         for (int i = 0; i < numbers.length; i++) {
 
             if (numbers[i] > 0)
