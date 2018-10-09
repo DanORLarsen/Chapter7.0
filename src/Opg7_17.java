@@ -28,7 +28,8 @@ public class Opg7_17 {
             scores[l]=sc.nextInt();
             } //Use for loop to enter scores of the index student
         int scoresOG[] = new int[students];
-        copyArray(scores,scoresOG);
+        for (int c = 0; c < scores.length; c++) {
+            scoresOG[c] = scores[c];}
 
         Arrays.sort(scores); //Sort to find highest (Highest index is highest grade "Problem is that student and scores would be swapped")
         String[] grade = new String[scores.length];
@@ -49,16 +50,16 @@ public class Opg7_17 {
         for (int p = students; p != 0;p--)
         {for (int l = 0; l < students;l++)
             if(scores[p-1] == scoresOG[l])
-            { System.out.println(names[l]);}
+            { System.out.print(names[l]);}
             else{}
 
             System.out.println(" with the score of " + scores[p-1] + " got the grade: " + grade[p-1]);
         }
 
     }
-    public static void copyArray(int[] copyTo,int[]copy) {
+    /*public static void copyArray(int[] copyTo,int[]copy) { forsøg på copy method
         copy = new int[copyTo.length];
-        for (int c = 0; c < copy.length; c++) {
+        for (int c = 0; c < copyTo.length; c++) {
             copy[c] = copyTo[c];
-        }}
-}
+        }*/ }
+
